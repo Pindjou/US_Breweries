@@ -1,0 +1,29 @@
+{
+    "currentUser": {
+        "id": 3,
+        "username": "Hans",
+        "password": "hans",
+        "highscore": 3
+    },
+    "users": [
+        {
+            "id": 2,
+            "username": "Michael",
+            "password": "test",
+            "highscore": 4
+        },
+        {
+            "id": 1,
+            "username": "Paul",
+            "password": "faul",
+            "highscore": 5
+        },
+        {
+            "id": 3,
+            "username": "Hans",
+            "password": "hans",
+            "highscore": 3
+        }
+    ],
+    "isLoggedIn": true
+}

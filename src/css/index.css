@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    background: #484946b0;
+    width: 100%;    
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: block;
+    padding: 20px;
+}
+
+.nav-bar ul li {
+    float: left;
+    width: 20%;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(227, 238, 125);
+}
+
+
+/*footer*/
+.footer {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    background: #484946b0;
+    bottom: 0%;
+    width: 100%;
+    position: absolute;
+
+
+    
+}
+
+.footer ul {
+    list-style: none;
+    display: block;
+    padding: 20px;
+}
+
+.footer ul li {
+    float: left;
+    width: 20%;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(232, 248, 10);
+
+
+}
+
+/*login*/
+.login {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.login-form {
+    width: 40%;
+    margin: 10px auto;
+}
+
+.login-form input {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/*register*/
+.register-container {
+    width: 100%;
+}
+
+.register-form {
+    width: 40%;
+    margin: 10px auto;
+}
+
+.register-form input {
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+/*dashboard*/
+.dashboard {
+    width: 90vw;
+}
+
+.brewry-form {
+    width: 90%;
+    margin: 5px 5%;
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.brewry-form .boxContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.brewry-form .boxContainer select {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.breweries-container {
+    border: 1px solid #ccc;
+    width: 90%;
+    margin: 5px 5%;
+    padding: 10px;
+}
+
+.breweries-container div {
+    margin: 10px 0;
+}
+
+.selectedBreweryInfo {
+    padding: 10px;
+    border: 0.5px solid #ccc;
+}
+
+.selectedBreweryInfo h3 {
+    margin: 10px 2px;
+}
+
+.selectedBreweryInfo .favContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectedBreweryInfo .favContainer button {
+    padding: 5px;
+    border: none;
+    background:#484946b0;
+    color:  rgb(232, 248, 10);
+}
+
+.selectedBreweryInfo .favContainer button:hover {
+    cursor: pointer;
+}
+
+.mapContainer {
+    position: relative;
+    width: 100%;
+}
+
+.mapContainer canvas {
+    position: absolute;
+    width: 100%;
+}
+
+@media(min-width:1000px) {
+    .brewry-form {
+        width: 50%;
+        margin: 10px auto;
+
+    }
+
+    .breweries-container {
+        width: 50%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
